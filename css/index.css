@@ -1,0 +1,8 @@
+.info {
+    background-color: #00BFFF;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 330px;
+    text-align: center;
+}
