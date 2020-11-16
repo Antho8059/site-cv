@@ -1,8 +1,30 @@
 .info {
-    background-color: #00BFFF;
+    background-color: dodgerblue;
     display: flex;
     flex-direction: column;
     float: left;
     width: 330px;
     text-align: center;
+
+}
+
+#fond {
+    background-image: url("../img/computer.jpg");
+    height: 50em;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title1 {
+    text-align: center;
+    padding-top: 3.1em;
+
+}
+
+.title2 {
+    text-align: center;
+    font-size: medium;
+
 }
