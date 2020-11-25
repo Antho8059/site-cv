@@ -1,10 +1,15 @@
 /*  h Gagalin */
+@font-face {
+    font-family: 'Gagalin';
+    src: url(fonts/Gagalin-Regular.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     font-family: Oswald, sans-serif;
     padding: 0px;
     margin: 0px;
-
     box-sizing: border-box;
 }
 
@@ -22,6 +27,10 @@ a {
 nav {
     background-image: url(../img/universe.jpg);
     border-radius: 5px;
+}
+
+nav a {
+    font-family: Gagalin;
 }
 
 
@@ -51,8 +60,8 @@ footer p {
 
 /* Sections */
 
-.info {
-    background-color: dodgerblue;
+.coord {
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
     float: left;
@@ -66,10 +75,11 @@ footer p {
 
 }
 
-.info h3 {
-    padding-top: 80%;
-
+.coord h3 {
+    padding-top: 55%;
+    font-family: Gagalin;
 }
+
 
 
 #fond {
@@ -107,6 +117,7 @@ section {
 section h2 {
     margin: 20px 0;
     width: 80%;
+    font-family: Gagalin;
 }
 
 section div {
